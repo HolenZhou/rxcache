@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_cache"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="5dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:paddingTop="5dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="okhttp默认缓存"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/default_cache"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="默认缓存"
+            android:textAllCaps="false" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="自定义缓存方式"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/first_remote"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="优先网络"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/first_cache"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="优先缓存"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/only_remote"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="仅加载网络"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/only_cache"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="仅加载缓存"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/cache_remote"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="加载缓存和网络"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/cache_remote_distinct"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="加载缓存和网络(distinct模式)"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/remove_cache"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onRemoveCache"
+            android:text="根据key删除缓存"
+            android:textAllCaps="false" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onLoadCache"
+            android:text="根据key获取缓存"
+            android:textAllCaps="false" />
+
+        <TextView
+            android:id="@+id/cache_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAllCaps="false" />
+    </LinearLayout>
+</ScrollView>
