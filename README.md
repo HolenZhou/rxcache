@@ -1,7 +1,7 @@
 # RxCache
 A library of LRU cache and support Rx.
-该库代码大部分借鉴于开源库[RxEasyHttp](https://github.com/zhou-you/RxEasyHttp)的[缓存模块]([https://github.com/zhou-you/RxEasyHttp/wiki/cache#%E7%BC%93%E5%AD%98%E4%BD%BF%E7%94%A8](https://github.com/zhou-you/RxEasyHttp/wiki/cache#%E7%BC%93%E5%AD%98%E4%BD%BF%E7%94%A8)
-)，特此声明并感谢！
+
+该库代码大部分借鉴于开源库[RxEasyHttp](https://github.com/zhou-you/RxEasyHttp)的[缓存模块](https://github.com/zhou-you/RxEasyHttp/wiki/cache#%E7%BC%93%E5%AD%98%E4%BD%BF%E7%94%A8)，特此声明并感谢！
 
 ## 简介
 
